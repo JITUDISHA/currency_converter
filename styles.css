@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+#amount:hover {
+    background-color: rgba(189, 169, 105, 0.456);
+    
+    color: rgb(0, 0, 0);
+}
+
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+  }
+  .converter {
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 320px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  input, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #0df494f8;
+  }
+
+
+  .result {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+
+  }
+  
+  
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background: #f0f0f0;
+    background-image: url("money.webp");
+    background-position: top  center;
+    background-size: cover;
+    background-repeat:repeat-y;
+
+  }
+  .container {
+    background: white;
+    
+    background-color: rgba(0, 0, 0,0.2);
+    padding: 20px;
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(253, 6, 6, 0.1);
+  }
+
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    transform: scale(1.2);
+ 
+    background-color: rgba(0, 0, 0,0.2);
+  }
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: #cecece;
+    /* background-color: rgba(0, 0, 0,0.2); */
+  }
